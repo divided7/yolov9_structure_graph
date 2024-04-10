@@ -55,7 +55,7 @@ Note:
 
 * **Silence** `models.common.Silence`: 该模块输出=输入，即什么都不做。这个模块的目的是为了辅助可逆分支能够获得原图信息。
 
-* **CBS **`models.common.Conv`: Conv2d + BatchNorm2d + SiLU (默认激活函数)
+* **CBS**`models.common.Conv`: Conv2d + BatchNorm2d + SiLU (默认激活函数)
 
   Note: BN层在推理阶段可以将其参数融合进卷积层。在yolov9的代码中可以关注 ’fuse‘关键词，一般与rep有关，例如`models.common.Conv.forward_fuse`。(ref: [RepVGG](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf))
 
