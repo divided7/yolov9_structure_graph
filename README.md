@@ -51,7 +51,7 @@ Through Detect Head (mainly NMS and some others) we can get the object detection
 
 * **Silence** `models.common.Silence`: Do nothing. It's only use to provide source input data for Auxiliary Reversible Branch.
 
-* **CBS **`models.common.Conv`: Conv2d + BatchNorm2d + SiLU (Default act)
+* **CBS** `models.common.Conv`: Conv2d + BatchNorm2d + SiLU (Default act)
 
   Note: The BN layer can re-parameter when inference. (ref: [RepVGG](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf))
 
@@ -65,13 +65,13 @@ Through Detect Head (mainly NMS and some others) we can get the object detection
 
 * **ELAN-SPP** `models.common.SPPELAN`:
 
-   <img src="tutorials_img/SPPELAN.svg" width="200"/>
+   <img src="tutorials_img/SPPELAN.svg" width="300"/>
 
 * **ADown `models.common.ADown`:**
 
    This block replaces a part of `CBS` in`yolov9-c.yaml` and `yolov9-e.yaml`.
 
-   <img src="tutorials_img/ADown.svg" width="200"/>
+   <img src="tutorials_img/ADown.svg" width="300"/>
 
 ---
 
