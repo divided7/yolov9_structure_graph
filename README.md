@@ -1,4 +1,4 @@
-# 语言 Language
+# Language 语言
 
 [English](./structure.md) [简体中文](structure_CN.md)
 
