@@ -2,6 +2,9 @@
 
 [English](./structure.md) [简体中文](structure_CN.md)
 
+# 图片文件
+如果您想借鉴绘制的结构图，请参考ppt文件[PPT](./tutorials_img/yolov9.ppt.pptx)
+
 # 论文总结
 
 论文提出了PGI（Programmable Gradient Information）思想，即反向传播过程梯度信息丢失的问题需要以被解决。一共提出三个重要部分：
@@ -80,5 +83,6 @@ Note:
   该模块在`yolov9-c.yaml`与`yolov9-e.yaml`结构中出现，替代了模型中部分`CBS`模块。
 
   <img src="tutorials_img/ADown.svg" width="300"/>
+
 
 
